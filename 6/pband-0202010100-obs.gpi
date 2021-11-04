@@ -1,0 +1,88 @@
+ #!/usr/bin/env gnuplot
+ set terminal postscript enhanced eps colour lw 2 dashlength 2 fontscale 1.5
+ set ylabel "Energy (eV)"
+ # unset colorbox
+ # set cblabel 'Logarithmic intensity'
+ unset key
+ # Pick or modify a color palette:
+ # set palette defined (0 '#FFFFD9',0.125 '#EDF8B1',0.25 '#C7E9B4',0.375 '#7FCDBB',0.5 '#41B6C4',0.625 '#1D91C0',0.75 '#225EA8',0.875 '#0C2C84', 1 '#0B1B42')
+ # set palette negative   # Change to a dark background and bright bands.
+ set palette defined (0 '#FFFFFF',0.05 '#EDF8B1',0.08 '#C7E9B4',0.15 '#7FCDBB',0.25 '#41B6C4',0.4 '#1D91C0',0.6 '#225EA8',0.825 '#0C2C84', 1 '#0B1B42')
+ set grid front xtics noytics lw 2
+ set xtics ("{/Symbol G}"      0 ,"L"    100 ,"U"    171 ,"X"    212 ,"W"    270 ,"K"    311 )
+ set arrow 1 from 0, 500 to  311, 500 nohead front lw 0.5
+ # Choose a ytic (energy) spacing:
+ set ytics ("-13.0"     22 ,"-12.0"     59 ,"-11.0"     96 ,"-10.0"    133 ," -9.0"    169 ," -8.0"    206 ," -7.0"    243 ," -6.0"    280 ," -5.0"    316 ," -4.0"    353 ," -3.0"    390 ," -2.0"    427 ," -1.0"    463 ,"  0.0"    500 ,"  1.0"    537 ,"  2.0"    573 ,"  3.0"    610 ,"  4.0"    647 ,"  5.0"    684 ,"  6.0"    720 ,"  7.0"    757 ,"  8.0"    794 ,"  9.0"    831 ," 10.0"    867 ," 11.0"    904 ," 12.0"    941 ," 13.0"    978 )
+ set ytics ("-12.0"     59 ,"-10.0"    133 ," -8.0"    206 ," -6.0"    280 ," -4.0"    353 ," -2.0"    427 ,"  0.0"    500 ,"  2.0"    573 ,"  4.0"    647 ,"  6.0"    720 ,"  8.0"    794 ," 10.0"    867 ," 12.0"    941 )
+ set ytics ("-12.0"     59 ," -9.0"    169 ," -6.0"    280 ," -3.0"    390 ,"  0.0"    500 ,"  3.0"    610 ,"  6.0"    720 ,"  9.0"    831 ," 12.0"    941 )
+ set ytics ("-12.0"     59 ," -8.0"    206 ," -4.0"    353 ,"  0.0"    500 ,"  4.0"    647 ,"  8.0"    794 ," 12.0"    941 )
+ set ytics ("-10.0"    133 ," -5.0"    316 ,"  0.0"    500 ,"  5.0"    684 ," 10.0"    867 )
+ ky(x) = (int(x)%   1001)
+ kx(x) = int(x)/   1001
+ #The binary files only work properly in gnuplot version 4.2 or above!
+
+ #Total weight
+ set output "pband-0202010100-obs.eps"
+ set title 'Trace'
+ p [0:  311] 'pband-0202010100-obs.data' binary record=                  312312 format="%float%*3float" u (kx($0)):(ky($0)):1 w image
+ set output "pband-0202010100-obs-log.eps"
+ set title 'Logarithmic intensity'
+ p [0:  311] 'pband-0202010100-obs.data' binary record=                  312312 format="%float%*3float" u (kx($0)):(ky($0)):(log($1)) w image
+
+ system("gs -sDEVICE=pdfwrite -dNOPAUSE -dPDFSETTINGS=/prepress -dBATCH -dSAFER -dEPSCrop -sOutputFile=pband-0202010100-obs.pdf pband-0202010100-obs.eps pband-0202010100-obs-log.eps ")
+ system("rm -f  pband-0202010100-obs.eps pband-0202010100-obs-log.eps ")
+
+ rgb(r,g,b) = int(255.0*r)*65536 + int(255.0*g)*256 + int(255.0*b)
+ #hsv2rgb(h,s,v) = h*6 < 5 ? (h*6 < 4 ? (h*6 < 3 ? ( h*6 < 2 ? ( h*6 < 1 ? rgb(v,v*(1-s*(1-6*h)),v*(1-s)) :rgb(v*(1-s*(6*h-1)),v,v*(1-s)) ): rgb(v*(1-s),v,v*(1-s*(1-(6*h-2)))) ) : rgb(v*(1-s),v*(1-s*(6*h-3)),v) ) :rgb(v*(1-s*(1-(6*h-4))),v*(1-s),v) ): rgb(v,v*(1-s),v*(1-s*(6*h-5)))
+ hsv2red(h,s,v) = h*6 < 5 ? (h*6 < 4 ? (h*6 < 3 ? ( h*6 < 2 ? ( h*6 < 1 ? int(255.0*v) :int(255.0*v*(1-s*(6*h-1))) ): int(255.0*v*(1-s)) ) : int(255.0*v*(1-s)) ) :int(255.0*v*(1-s*(1-(6*h-4)))) ): int(255.0*v)
+ hsv2green(h,s,v) = h*6 < 5 ? (h*6 < 4 ? (h*6 < 3 ? ( h*6 < 2 ? ( h*6 < 1 ? int(255.0*v*(1-s*(1-6*h))) :int(255.0*v) ): int(255.0*v) ) : int(255.0*v*(1-s*(6*h-3))) ) :int(255.0*v*(1-s)) ): int(255.0*v*(1-s))
+ hsv2blue(h,s,v) = h*6 < 5 ? (h*6 < 4 ? (h*6 < 3 ? ( h*6 < 2 ? ( h*6 < 1 ? int(255.0*v*(1-s)) :int(255.0*v*(1-s)) ): int(255.0*v*(1-s*(1-(6*h-2)))) ) : int(255.0*v) ) :int(255.0*v) ): int(255.0*v*(1-s*(6*h-5)))
+ xypol(w,x,y,s) = sqrt(x**2+y**2)/(w*s+0.0001)
+ pred(w,x,y,z,s) = hsv2red(hue(x,y),xypol(w,x,y,s),w/(w+1))
+ pgreen(w,x,y,z,s) = hsv2green(hue(x,y),xypol(w,x,y,s),w/(w+1))
+ pblue(w,x,y,z,s) = hsv2blue(hue(x,y),xypol(w,x,y,s),w/(w+1))
+ phase(w,x,y,z,s) = hsv2rgborig(hue(x,y),xypol(w,x,y,s),w/(w+1))
+ hue(x,y) = abs(x) < 0.0001 && abs(y) < 0.0001 ? 0 : (pi + atan2(-x,-y))/(2*pi)
+ vcutx(x,y,s) = sqrt(x**2+y**2) < 3*s ? 0 : 0.03*x/s
+ vcuty(x,y,s) = sqrt(x**2+y**2) < 3*s ? 0 : 0.03*y/s
+ # Modify the spin angle functions according to your needs:
+ #set palette positive nops_allcF maxcolors 0 gamma 1.5 color model HSV
+ #set palette defined ( 0 0 1 1, 1 1 1 1 )
+ #set colorbox
+ #set cblabel 'Spin angle (xy-plane)'
+
+ set palette defined (0 '#FFFFFF',0.05 '#EDF8B1',0.08 '#C7E9B4',0.15 '#7FCDBB',0.25 '#41B6C4',0.4 '#1D91C0',0.6 '#225EA8',0.825 '#0C2C84', 1 '#0B1B42')
+ set output "pband-0202010100-obs-sz.eps"
+ set title 'sz (spin axis) '
+ p [0:  311] 'pband-0202010100-obs.data' binary record=                  312312 format="%*3float%float%*0float" u (kx($0)):(ky($0)):1 w image
+ set output "pband-0202010100-obs-sy.eps"
+ set title 'sy (spin axis) '
+ p [0:  311] 'pband-0202010100-obs.data' binary record=                  312312 format="%*2float%float%*1float" u (kx($0)):(ky($0)):1 w image
+ set output "pband-0202010100-obs-sx.eps"
+ set title 'sx (spin axis) '
+ p [0:  311] 'pband-0202010100-obs.data' binary record=                  312312 format="%*1float%float%*2float" u (kx($0)):(ky($0)):1 w image
+ set palette defined (0 '#bbbbbb',0.40 '#54207c',0.50 '#0000a0',0.65 '#00bbbb',0.80 '#00a000',0.9 '#eded00',1 '#dd0000')
+ weight =  0.5
+ set output "pband-0202010100-obs-S.eps"
+ set title 'S (spin axis) '
+ p [0:  311] 'pband-0202010100-obs.data' binary record=                  312312 format="%float%*0float%3float%*0float" u (kx($0)):(ky($0)):(pred($1,$2,$3,$4,weight)):(pgreen($1,$2,$3,$4,weight)):(pblue($1,$2,$3,$4,weight)) w rgbimage
+ set output "pband-0202010100-obs-S-pol.eps"
+ set title 'S (spin axis) '
+ p [0:  311] 'pband-0202010100-obs.data' binary record=                  312312 format="%float%*0float%3float%*0float" u (kx($0)):(ky($0)):(xypol($1,$2,$3,weight))  w image
+ set palette defined (0 '#FFFFFF',0.05 '#EDF8B1',0.08 '#C7E9B4',0.15 '#7FCDBB',0.25 '#41B6C4',0.4 '#1D91C0',0.6 '#225EA8',0.825 '#0C2C84', 1 '#0B1B42')
+ set palette defined (0 '#FFFFFF',0.05 '#EDF8B1',0.08 '#C7E9B4',0.15 '#7FCDBB',0.25 '#41B6C4',0.4 '#1D91C0',0.6 '#225EA8',0.825 '#0C2C84', 1 '#0B1B42')
+ # Up-down plots for Sz. NOTE: This is along Sz for projected cluster, not the spin axis!
+ #set output "pband-0202010100-obs-up.eps"
+ #set title 'up'
+ #p [0:  311] 'pband-0202010100-obs.data' binary record=                  312312 format="%float%*2float%float%*0float" u (kx($0)):(ky($0)):($1-2*$2) w image
+ #set output "pband-0202010100-obs-down.eps"
+ #set title 'down'
+ #p [0:  311] 'pband-0202010100-obs.data' binary record=                  312312 format="%float%*2float%float%*0float" u (kx($0)):(ky($0)):($1+2*$2) w image
+
+ system("gs -sDEVICE=pdfwrite -dNOPAUSE -dPDFSETTINGS=/prepress -dBATCH -dSAFER -dEPSCrop -sOutputFile=pband-0202010100-obs-SLJ.pdf pband-0202010100-obs-sz.eps  pband-0202010100-obs-sy.eps  pband-0202010100-obs-sx.eps  pband-0202010100-obs-S*.eps  ")
+ system("rm  pband-0202010100-obs-sz.eps  pband-0202010100-obs-sy.eps  pband-0202010100-obs-sx.eps  pband-0202010100-obs-S*.eps  ")
+
+ set palette defined (0 '#FFFFFF',0.05 '#EDF8B1',0.08 '#C7E9B4',0.15 '#7FCDBB',0.25 '#41B6C4',0.4 '#1D91C0',0.6 '#225EA8',0.825 '#0C2C84', 1 '#0B1B42')
+
+ # pause -1
+

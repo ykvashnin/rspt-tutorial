@@ -1,0 +1,239 @@
+ (2i6)
+     1     2 group order, spins
+ (/ 3f18.14 / 3f18.14 / 3f18.14)
+c Element  1
+  1.00000000000000  .000000000000000  .000000000000000
+  .000000000000000  1.00000000000000  .000000000000000
+  .000000000000000  .000000000000000  1.00000000000000
+c Element  2
+  .000000000000000 -1.00000000000000  .000000000000000
+ -1.00000000000000  .000000000000000  .000000000000000
+  .000000000000000  .000000000000000 -1.00000000000000
+c Element  3
+  .000000000000000  .000000000000000  1.00000000000000
+  1.00000000000000  .000000000000000  .000000000000000
+  .000000000000000  1.00000000000000  .000000000000000
+c Element  4
+  .000000000000000  .000000000000000 -1.00000000000000
+  .000000000000000 -1.00000000000000  .000000000000000
+ -1.00000000000000  .000000000000000  .000000000000000
+c Element  5
+  .000000000000000  1.00000000000000  .000000000000000
+  .000000000000000  .000000000000000  1.00000000000000
+  1.00000000000000  .000000000000000  .000000000000000
+c Element  6
+ -1.00000000000000  .000000000000000  .000000000000000
+  .000000000000000  .000000000000000 -1.00000000000000
+  .000000000000000 -1.00000000000000  .000000000000000
+c Element  7
+  .000000000000000  1.00000000000000  .000000000000000
+  1.00000000000000  .000000000000000  .000000000000000
+  .000000000000000  .000000000000000  1.00000000000000
+c Element  8
+  .000000000000000  .000000000000000 -1.00000000000000
+ -1.00000000000000  .000000000000000  .000000000000000
+  .000000000000000 -1.00000000000000  .000000000000000
+c Element  9
+  1.00000000000000  .000000000000000  .000000000000000
+  .000000000000000  .000000000000000  1.00000000000000
+  .000000000000000  1.00000000000000  .000000000000000
+c Element 10
+  .000000000000000  .000000000000000  1.00000000000000
+  .000000000000000  1.00000000000000  .000000000000000
+  1.00000000000000  .000000000000000  .000000000000000
+c Element 11
+ -1.00000000000000  .000000000000000  .000000000000000
+  .000000000000000 -1.00000000000000  .000000000000000
+  .000000000000000  .000000000000000 -1.00000000000000
+c Element 12
+  .000000000000000 -1.00000000000000  .000000000000000
+  .000000000000000  .000000000000000 -1.00000000000000
+ -1.00000000000000  .000000000000000  .000000000000000
+ (3i6)
+     3    38    27 types, nthdim, nchdim
+                          (/ 3x, i6) read number of sites
+     (6x, 3f18.14 / 6x, 3f18.14, i6) read tau and Euler angles
+                            (3x, i6) read number of harmonics
+                            (6x, i6) read l for harmonic
+                            (9x, i6) read number of components
+                   (9x, i6, 2f18.14) read components
+   Harmonics for type     1
+        1 sites of type 1
+        .000000000000000  .000000000000000  .000000000000000
+        .785398163397448  .955316618124509 -.785398163397448     1
+       10 number of harmonics for type 1
+           0 L for harmonic 1 type 1
+              1 number of components for harmonic 1 type 1
+              0  1.00000000000000  .000000000000000  m, c(m)
+           2 L for harmonic 2 type 1
+              1 number of components for harmonic 2 type 1
+              0 -1.00000000000000  .000000000000000  m, c(m)
+           4 L for harmonic 3 type 1
+              2 number of components for harmonic 3 type 1
+             -3  .500000000000000 -.500000000000000  m, c(m)
+              3 -.500000000000000 -.500000000000000  m, c(m)
+           4 L for harmonic 4 type 1
+              1 number of components for harmonic 4 type 1
+              0  1.00000000000000  .000000000000000  m, c(m)
+           6 L for harmonic 5 type 1
+              2 number of components for harmonic 5 type 1
+             -6  .000000000000000 -.707106781186547  m, c(m)
+              6  .000000000000000  .707106781186547  m, c(m)
+           6 L for harmonic 6 type 1
+              2 number of components for harmonic 6 type 1
+             -3 -.500000000000000  .500000000000000  m, c(m)
+              3  .500000000000000  .500000000000000  m, c(m)
+           6 L for harmonic 7 type 1
+              1 number of components for harmonic 7 type 1
+              0 -1.00000000000000  .000000000000000  m, c(m)
+           8 L for harmonic 8 type 1
+              2 number of components for harmonic 8 type 1
+             -6  .000000000000000  .707106781186547  m, c(m)
+              6  .000000000000000 -.707106781186547  m, c(m)
+           8 L for harmonic 9 type 1
+              2 number of components for harmonic 9 type 1
+             -3  .500000000000000 -.500000000000000  m, c(m)
+              3 -.500000000000000 -.500000000000000  m, c(m)
+           8 L for harmonic 10 type 1
+              1 number of components for harmonic 10 type 1
+              0  1.00000000000000  .000000000000000  m, c(m)
+   Harmonics for type     2
+        1 sites of type 2
+        .500000000000000  .500000000000000  .500000000000000
+        .785398163397448  .955316618124509 -.785398163397448     1
+       10 number of harmonics for type 2
+           0 L for harmonic 1 type 2
+              1 number of components for harmonic 1 type 2
+              0  1.00000000000000  .000000000000000  m, c(m)
+           2 L for harmonic 2 type 2
+              1 number of components for harmonic 2 type 2
+              0 -1.00000000000000  .000000000000000  m, c(m)
+           4 L for harmonic 3 type 2
+              2 number of components for harmonic 3 type 2
+             -3  .500000000000000 -.500000000000000  m, c(m)
+              3 -.500000000000000 -.500000000000000  m, c(m)
+           4 L for harmonic 4 type 2
+              1 number of components for harmonic 4 type 2
+              0  1.00000000000000  .000000000000000  m, c(m)
+           6 L for harmonic 5 type 2
+              2 number of components for harmonic 5 type 2
+             -6  .000000000000000 -.707106781186547  m, c(m)
+              6  .000000000000000  .707106781186547  m, c(m)
+           6 L for harmonic 6 type 2
+              2 number of components for harmonic 6 type 2
+             -3 -.500000000000000  .500000000000000  m, c(m)
+              3  .500000000000000  .500000000000000  m, c(m)
+           6 L for harmonic 7 type 2
+              1 number of components for harmonic 7 type 2
+              0 -1.00000000000000  .000000000000000  m, c(m)
+           8 L for harmonic 8 type 2
+              2 number of components for harmonic 8 type 2
+             -6  .000000000000000  .707106781186547  m, c(m)
+              6  .000000000000000 -.707106781186547  m, c(m)
+           8 L for harmonic 9 type 2
+              2 number of components for harmonic 9 type 2
+             -3  .500000000000000 -.500000000000000  m, c(m)
+              3 -.500000000000000 -.500000000000000  m, c(m)
+           8 L for harmonic 10 type 2
+              1 number of components for harmonic 10 type 2
+              0  1.00000000000000  .000000000000000  m, c(m)
+   Harmonics for type     3
+        2 sites of type 3
+        .250000000000000  .250000000000000  .250000000000000
+        .785398163397448  .955316618124509 -.785398163397448     1
+       -.250000000000000 -.250000000000000 -.250000000000000
+       -2.35619449019234  2.18627603546528  2.35619449019234     1
+       18 number of harmonics for type 3
+           0 L for harmonic 1 type 3
+              1 number of components for harmonic 1 type 3
+              0  1.00000000000000  .000000000000000  m, c(m)
+           1 L for harmonic 2 type 3
+              1 number of components for harmonic 2 type 3
+              0  .000000000000000  1.00000000000000  m, c(m)
+           2 L for harmonic 3 type 3
+              1 number of components for harmonic 3 type 3
+              0 -1.00000000000000  .000000000000000  m, c(m)
+           3 L for harmonic 4 type 3
+              2 number of components for harmonic 4 type 3
+             -3 -.500000000000000 -.500000000000000  m, c(m)
+              3 -.500000000000000  .500000000000000  m, c(m)
+           3 L for harmonic 5 type 3
+              1 number of components for harmonic 5 type 3
+              0  .000000000000000 -1.00000000000000  m, c(m)
+           4 L for harmonic 6 type 3
+              2 number of components for harmonic 6 type 3
+             -3  .500000000000000 -.500000000000000  m, c(m)
+              3 -.500000000000000 -.500000000000000  m, c(m)
+           4 L for harmonic 7 type 3
+              1 number of components for harmonic 7 type 3
+              0  1.00000000000000  .000000000000000  m, c(m)
+           5 L for harmonic 8 type 3
+              2 number of components for harmonic 8 type 3
+             -3  .500000000000000  .500000000000000  m, c(m)
+              3  .500000000000000 -.500000000000000  m, c(m)
+           5 L for harmonic 9 type 3
+              1 number of components for harmonic 9 type 3
+              0  .000000000000000  1.00000000000000  m, c(m)
+           6 L for harmonic 10 type 3
+              2 number of components for harmonic 10 type 3
+             -6  .000000000000000 -.707106781186547  m, c(m)
+              6  .000000000000000  .707106781186547  m, c(m)
+           6 L for harmonic 11 type 3
+              2 number of components for harmonic 11 type 3
+             -3 -.500000000000000  .500000000000000  m, c(m)
+              3  .500000000000000  .500000000000000  m, c(m)
+           6 L for harmonic 12 type 3
+              1 number of components for harmonic 12 type 3
+              0 -1.00000000000000  .000000000000000  m, c(m)
+           7 L for harmonic 13 type 3
+              2 number of components for harmonic 13 type 3
+             -6  .707106781186547  .000000000000000  m, c(m)
+              6 -.707106781186547  .000000000000000  m, c(m)
+           7 L for harmonic 14 type 3
+              2 number of components for harmonic 14 type 3
+             -3 -.500000000000000 -.500000000000000  m, c(m)
+              3 -.500000000000000  .500000000000000  m, c(m)
+           7 L for harmonic 15 type 3
+              1 number of components for harmonic 15 type 3
+              0  .000000000000000 -1.00000000000000  m, c(m)
+           8 L for harmonic 16 type 3
+              2 number of components for harmonic 16 type 3
+             -6  .000000000000000  .707106781186547  m, c(m)
+              6  .000000000000000 -.707106781186547  m, c(m)
+           8 L for harmonic 17 type 3
+              2 number of components for harmonic 17 type 3
+             -3  .500000000000000 -.500000000000000  m, c(m)
+              3 -.500000000000000 -.500000000000000  m, c(m)
+           8 L for harmonic 18 type 3
+              1 number of components for harmonic 18 type 3
+              0  1.00000000000000  .000000000000000  m, c(m)
+########################################################################
+ Harmonic dimensions:
+     L   nth   nch  type     h(type)
+     0     3     1     1           1
+                       2           1
+                       3           1
+     1     4     2     1           1
+                       2           1
+                       3           2
+     2     7     3     1           2
+                       2           2
+                       3           3
+     3     9     6     1           2
+                       2           2
+                       3           5
+     4    15     9     1           4
+                       2           4
+                       3           7
+     5    17    12     1           4
+                       2           4
+                       3           9
+     6    26    17     1           7
+                       2           7
+                       3          12
+     7    29    22     1           7
+                       2           7
+                       3          15
+     8    38    27     1          10
+                       2          10
+                       3          18

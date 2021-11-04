@@ -1,0 +1,5 @@
+ (/ 3f18.0, 5x, a1 // f18.0, i24, f18.0)
+                          axis                         coord
+  .000000000000000  .000000000000000  .000000000000000     l
+    field(Ry/bohr)   field modulation star    spin mix ratio
+              .000                       1               .10

@@ -1,0 +1,90 @@
+ history
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e    0 2.37E-02 ( 7.80E-01)     5.16314130       -8,587.713 929 006 6
+@      317.395271 -8587.71392900660
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.948 072 04     0.000     0.200     0.100  10.8281305
+               dvr            R(dvi)            I(dvi)
+         1.6172906        -0.3323047         0.0000000
+   user time:  0 hr  0 min  1 sec
+ system time:  0 hr  0 min  0 sec
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e    1 1.92E-02 ( 7.23E-01)     5.15353748       -8,588.027 403 231 3
+@      317.395271 -8588.02740323125
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.783 686 10     0.000     0.200     0.100  10.8281305
+               dvr            R(dvi)            I(dvi)
+         1.3497571        -0.1450889         0.0000000
+   user time:  0 hr  0 min  1 sec
+ system time:  0 hr  0 min  0 sec
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e    2 1.66E-02 ( 4.51E-01)     4.94266582       -8,587.997 154 460 7
+@      317.395271 -8587.99715446069
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.776 767 03     0.000     0.200     0.100  10.8281305
+               dvr            R(dvi)            I(dvi)
+         1.3675909        -0.1114903         0.0000000
+   user time:  0 hr  0 min  1 sec
+ system time:  0 hr  0 min  0 sec
+    Start runs mpprun -np 60 rspt 1.00e-10 99 on n1087, Fri Oct 29 11:33:06 2021
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   26 2.21E-11 ( 1.60E-09)     4.94122165       -8,589.456 851 642 3
+@      317.395271 -8589.45685164227
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.776 217 21     0.000     0.200     0.100  10.8281305
+               dvr            R(dvi)            I(dvi)
+         0.0005969        -0.0000039         0.0000000
+   user time:  0 hr  0 min  1 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Fri Oct 29 11:38:17 2021
+
+    Start runs mpprun -np 60 rspt 1.00e-10 99 on n1087, Fri Oct 29 11:47:23 2021
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   27 1.50E-11 ( 1.08E-09)     4.94122069       -8,589.456 851 636 5
+@      317.395271 -8589.45685163648
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.776 218 84     0.000     0.200     0.100  10.8281305
+               dvr            R(dvi)            I(dvi)
+         0.0005969        -0.0000032         0.0000000
+   user time:  0 hr  0 min  1 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Fri Oct 29 11:47:30 2021
+
+    Start runs mpprun -np 60 rspt 1.00e-10 99 on n1087, Fri Oct 29 11:48:23 2021
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   28 1.64E-12 ( 1.12E-10)     4.94121670       -8,589.456 851 612 5
+@      317.395271 -8589.45685161249
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.776 226 33     0.000     0.200     0.100  10.8281305
+               dvr            R(dvi)            I(dvi)
+         0.0005969        -0.0000010         0.0000000
+   user time:  0 hr  0 min  1 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Fri Oct 29 11:48:27 2021
+
+    Start runs mpprun -np 60 rspt 1.00e-12 99 on n1087, Fri Oct 29 11:49:01 2021
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   30 4.43E-13 ( 3.35E-11)     4.94120535       -8,589.456 851 616 3
+@      317.395271 -8589.45685161628
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.776 228 26     0.000     0.200     0.100  10.8281305
+               dvr            R(dvi)            I(dvi)
+         0.0005969         0.0000001         0.0000000
+   user time:  0 hr  0 min  1 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Fri Oct 29 11:49:08 2021
+
+   user time:  0 hr  0 min 29 sec
+ system time:  0 hr  0 min  0 sec
+   user time:  0 hr  0 min 28 sec
+ system time:  0 hr  0 min  0 sec
+   user time:  0 hr  0 min 28 sec
+ system time:  0 hr  0 min  0 sec
+   user time:  0 hr  0 min 28 sec
+ system time:  0 hr  0 min  0 sec
+   user time:  0 hr  0 min 30 sec
+ system time:  0 hr  0 min  1 sec
+   user time:  0 hr  0 min 28 sec
+ system time:  0 hr  0 min  0 sec
+   user time:  0 hr  0 min 28 sec
+ system time:  0 hr  0 min  0 sec

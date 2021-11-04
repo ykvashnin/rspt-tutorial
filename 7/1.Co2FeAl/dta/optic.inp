@@ -1,0 +1,6 @@
+ecut (Ry)  shift (Ry)  meshmax (Ry)  meshinc (Ry) 
+ 80.       0.000          3.0         0.0010
+interband isolator jdos
+   t        f       f
+eps (cutoff for matrix element size)
+3.552714e-13

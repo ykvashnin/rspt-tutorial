@@ -1,0 +1,156 @@
+##CIF_1.1
+
+data_sm_global
+#Used dictionaries
+loop_
+_audit_conform_dict_name
+_audit_conform_dict_version
+_audit_conform_dict_location
+cif_core.dic 	2.4.2 	.
+cif_pd.dic 		1.0.1 	.
+cif_sm.dic 		0.1 	'redaktion.landolt-boernstein(at)springer.com'
+
+#About this content and reference
+_sm_credits_copyright
+;PAULING FILE Multinaries Edition - 2012. SpringerMaterials Release 2014.
+http://www.paulingfile.com
+Unique LPF ID Number SD0459244
+Project Coordinator: Shuichi Iwata
+Section-Editors: Karin Cenzual (Crystal Structures), Hiroaki Okamoto (Phase 
+Diagrams), Fritz Hulliger (Physical Properties)
+(c) Springer & Material Phases Data System (MPDS), Switzerland & National 
+Institute for Materials Science (NIMS), Japan 2014.
+(Data generated pre-2002: (c) Springer & MPDS & NIMS; 
+post-2001: (c) Springer & MPDS)
+All Rights Reserved. Version 2014.06.
+;
+
+_audit_creation_method
+;This data have been compiled from the crystallographic datasheet for 
+"Co2FeAl (FeCo2Al rt) Crystal Structure" 
+taken from SpringerMaterials (sm_isp_sd_0459244).
+;
+
+_publ_section_references
+;Buschow K.H.J., Van Engen P.G., Jongebreur R.: <i>Magneto-optical properties of metallic ferromagnetic materials</i>. Journal of Magnetism and Magnetic Materials <b>38</b> (1983) 1-22.
+;
+
+#Phase classification
+_sm_phase_labels				'FeCo2Al rt'
+_chemical_name_mineral			''
+_sm_chemical_compound_class		'intermetallic'
+_sm_phase_prototype				'Cu2 MnAl'
+_sm_pearson_symbol				'cF16'
+_symmetry_Int_Tables_number		225
+_sm_sample_details
+;powder (determination of cell and structural parameters)
+;
+_sm_measurement_details
+;automatic diffractometer (determination of cell and structural parameters), 
+X-rays, Cu K&#x03b1; (determination of cell and structural parameters)
+;
+_sm_interpretation_details
+;cell parameters determined and type with fixed coordinates assigned
+;
+
+data_sm_isp_SD0459244-standardized_unitcell
+#Cell Parameters
+_cell_length_a					5.73
+_cell_length_b					5.73
+_cell_length_c					5.73
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				1.000
+_sm_length_ratio_bc				1.000
+_sm_length_ratio_ca				1.000
+_cell_volume 					188.1
+_symmetry_space_group_name_H-M	'Fm-3m'
+_symmetry_Int_Tables_number		225
+_cell_formula_units_Z			4
+_sm_cell_transformation
+;No transformation from published to standardized cell parameters necessary.
+;
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+Co 'Co' .8c .-43m 0.25 0.25 0.25 1 14 'rhombic dodecahedron, Fe<sub>4</sub>Al<sub>4</sub>Co<sub>6</sub>'
+Al 'Al' .4b .m-3m 0.5 0.5 0.5 1 14 'rhombic dodecahedron, Co<sub>8</sub>Fe<sub>6</sub>'
+Fe 'Fe' .4a .m-3m 0 0 0 1 14 'rhombic dodecahedron, Co<sub>8</sub>Al<sub>6</sub>'
+
+_sm_atom_site_transformation
+;No transformation from published to standardized cell parameters necessary.
+;
+
+data_sm_isp_SD0459244-published_cell
+#Cell Parameters
+_cell_length_a					5.73
+_cell_length_b					5.73
+_cell_length_c					5.73
+_cell_angle_alpha				90
+_cell_angle_beta				90
+_cell_angle_gamma				90
+_sm_length_ratio_ab				1.000
+_sm_length_ratio_bc				1.000
+_sm_length_ratio_ca				1.000
+_cell_volume 					188.13
+_symmetry_space_group_name_H-M	'Fm-3m'
+_symmetry_Int_Tables_number		225
+_cell_formula_units_Z			4
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+Fe 'Fe' .4a .m-3m 0 0 0 1 ? '?'
+Al 'Al' .4b .m-3m 0.5 0.5 0.5 1 ? '?'
+Co 'Co' .8c .-43m 0.25 0.25 0.25 1 ? '?'
+
+data_sm_isp_SD0459244-niggli_reduced_cell
+#Cell Parameters
+_cell_length_a					4.0517
+_cell_length_b					4.0517
+_cell_length_c					4.0517
+_cell_angle_alpha				60
+_cell_angle_beta				60
+_cell_angle_gamma				60
+_sm_length_ratio_ab				1.000
+_sm_length_ratio_bc				1.000
+_sm_length_ratio_ca				1.000
+_cell_volume 					47.03
+_symmetry_space_group_name_H-M	''
+_symmetry_Int_Tables_number		?
+_cell_formula_units_Z			4
+
+#Atom Coordinates
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_Wyckoff_symbol
+_sm_site_symmetry
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_sm_coordination_number
+_sm_atomic_environment_type
+? ? ? ? ? ? ? ? ? ?
+

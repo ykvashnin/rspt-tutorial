@@ -1,0 +1,12 @@
+ (/ 3f18.0 // 3f18.0 / 3f18.0)
+                  offset vector in lattice coordinates
+  .000000000000000  .000000000000000  .000000000000000
+          contour plane vectors in lattice coordinates
+  1.00000000000000  .000000000000000  .000000000000000
+  .000000000000000  1.00000000000000  .000000000000000
+ (/ 2i18)
+       intervals along plane vectors
+               100               100
+ (/ i12)
+   add core?
+           1

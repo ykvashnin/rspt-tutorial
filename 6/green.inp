@@ -1,0 +1,19 @@
+spectrum
+Band Pband eV
+   99    70    40    57    40
+G     L     U     X     W     K
+
+# Co-d
+cluster
+1 0
+1 2 1 1 0
+
+# Fe-d
+cluster
+1 0
+2 2 1 1 0
+
+
+#########
+mixing
+3 0.15 0.0 7.7622826197466E-01

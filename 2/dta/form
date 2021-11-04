@@ -1,0 +1,51 @@
+#include "prnt_array"
+#include "header"
+ LABEL
+#include "length_scale_form"
+#include "brillouin_zone_integration"
+ (i6)
+     1 placeholder for obsolete panel index
+#include "panel_data"
+#include "bravais_lattice"
+#include "fourier_grid"
+#include "spin_data"
+ (// 2i8)
+ TYPE 1: species: 27up
+   natom   nharm  (L=   0   1   2   3   4   5   6   7   8)
+       2       6  (n=   1   1   1   2   3   3   4   5   6)
+ (/ (24i3))
+ density exponents
+  1
+ basis exponents
+  5  4  3  2  1  0  0  0  0
+ (/ (3f18.0, 5x, a1))
+              tau1              tau2              tau3     c
+  .250000000000000  .250000000000000  .250000000000000     l
+ -.250000000000000 -.250000000000000 -.250000000000000     l
+#include "element_27"
+ (// 2i8)
+ TYPE 2: species: 26up
+   natom   nharm  (L=   0   1   2   3   4   5   6   7   8)
+       1       4  (n=   1   1   1   1   2   2   3   3   4)
+ (/ (24i3))
+ density exponents
+  1
+ basis exponents
+  5  4  3  2  1  0  0  0  0
+ (/ (3f18.0, 5x, a1))
+              tau1              tau2              tau3     c
+  .000000000000000  .000000000000000  .000000000000000     l
+#include "element_26"
+ (// 2i8)
+ TYPE 3: species: 13a
+   natom   nharm  (L=   0   1   2   3   4   5   6   7   8)
+       1       4  (n=   1   1   1   1   2   2   3   3   4)
+ (/ (24i3))
+ density exponents
+  1
+ basis exponents
+  5  4  3  2  1  0  0  0  0
+ (/ (3f18.0, 5x, a1))
+              tau1              tau2              tau3     c
+  .500000000000000  .500000000000000  .500000000000000     l
+#include "element_13"

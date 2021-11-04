@@ -1,0 +1,158 @@
+ history
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e    0 7.02E-04 ( 5.74E-01)     15.0488982        -45,090.897 603 210
+@      446.671787 -45090.8976032103
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.430 859 49     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.1205691        -0.3736389         0.0000000
+   user time:  0 hr  0 min  8 sec
+ system time:  0 hr  0 min  1 sec
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e    0 7.13E-04 ( 5.86E-01)     15.0486265        -45,090.899 260 091
+@      446.671787 -45090.8992600912
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.438 671 58     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.1200803        -0.3233813         0.0000000
+   user time:  0 hr  0 min  8 sec
+ system time:  0 hr  0 min  1 sec
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e    0 7.13E-04 ( 5.86E-01)     15.0486265        -45,090.899 260 091
+@      446.671787 -45090.8992600912
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.438 671 58     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.1200803        -0.3233813         0.0000000
+   user time:  0 hr  0 min  7 sec
+ system time:  0 hr  0 min  1 sec
+    Start runs mpirun -np 64 ../rspt 1.00e-12 99 on m209.uppmax.uu.se, Fri Nov 14 15:45:10 2014
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   20 2.52E-14 ( 1.24E-11)     15.5927274        -45,090.911 753 835
+@      446.671787 -45090.9117538350
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.429 806 54     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.0005427        -0.0000014         0.0000000
+   user time:  0 hr  0 min  8 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Fri Nov 14 15:45:10 2014
+    Start runs mpirun -np 64 ../rspt 1.00e-12 99 on m209.uppmax.uu.se, Fri Nov 14 16:24:34 2014
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   25 8.11E-13 ( 3.63E-10)     15.5944479        -45,090.911 784 448
+@      446.671787 -45090.9117844476
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.429 884 74     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.0005427        -0.0000024         0.0000000
+   user time:  0 hr  0 min 23 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Fri Nov 14 16:24:34 2014
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   26 5.68E-12 ( 2.92E-09)     15.5951822        -45,090.911 788 152
+@      446.671787 -45090.9117881517
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.429 865 23     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.0005427        -0.0000102         0.0000000
+   user time:  0 hr  0 min 57 sec
+ system time:  0 hr  0 min  0 sec
+    Start runs mpirun -np 64 ../rspt 1.00e-12 99 on m209.uppmax.uu.se, Fri Nov 14 17:01:26 2014
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   30 2.12E-13 ( 5.13E-11)     15.5954653        -45,090.911 788 657
+@      446.671787 -45090.9117886575
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.429 867 79     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.0005427        -0.0000015         0.0000000
+   user time:  0 hr  0 min 56 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Fri Nov 14 17:01:26 2014
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   31 1.60E-13 ( 4.23E-11)     15.5954712        -45,090.911 788 667
+@      446.671787 -45090.9117886666
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.429 867 81     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.0005427        -0.0000012         0.0000000
+   user time:  0 hr 10 min  4 sec
+ system time:  0 hr  0 min  3 sec
+   user time:  1 hr 15 min 14 sec
+ system time:  0 hr  0 min 11 sec
+    Start runs mpirun -np 64  ../rspt 1.00e-12 99 on m210.uppmax.uu.se, Mon Nov 17 22:44:43 2014
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   58 1.73E-13 ( 6.68E-11)     15.5926192        -45,090.910 514 542
+@      446.671787 -45090.9105145424
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.422 219 43     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.0005511         0.0000004         0.0000000
+   user time:  0 hr  0 min  8 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Mon Nov 17 22:44:43 2014
+    Start runs mpirun -np 64  ../rspt 1.00e-12 99 on m210.uppmax.uu.se, Mon Nov 17 23:22:00 2014
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   65 6.71E-13 ( 2.96E-10)     15.5952406        -45,090.910 549 468
+@      446.671787 -45090.9105494677
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.422 279 93     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.0005511        -0.0000013         0.0000000
+   user time:  0 hr  0 min 56 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Mon Nov 17 23:22:00 2014
+    Start runs mpirun -np 64  ../rspt 1.00e-12 99 on m209.uppmax.uu.se, Tue Nov 18 09:51:37 2014
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   66 1.42E-13 ( 7.57E-11)     15.5953142        -45,090.910 549 666
+@      446.671787 -45090.9105496662
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.422 280 23     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.0005511        -0.0000017         0.0000000
+   user time:  0 hr  0 min 58 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Tue Nov 18 09:51:37 2014
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   67 1.10E-13 ( 5.80E-11)     15.5953216        -45,090.910 549 735
+@      446.671787 -45090.9105497350
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.422 280 18     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.0005511        -0.0000014         0.0000000
+   user time:  0 hr 10 min  1 sec
+ system time:  0 hr  0 min  2 sec
+   user time:  1 hr 35 min 34 sec
+ system time:  0 hr  0 min 12 sec
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e    0 7.03E-04 ( 5.74E-01)     15.0488982        -45,090.897 603 215
+@      446.671787 -45090.8976032150
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.430 859 49     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.1205691        -0.3736395         0.0000000
+   user time:  0 hr  0 min  3 sec
+ system time:  0 hr  0 min  0 sec
+    Start runs mpprun -np 60 rspt 1.00e-12 99 on n118, Fri Oct 29 18:32:46 2021
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   20 3.12E-14 ( 1.50E-11)     15.5926180        -45,090.910 514 609
+@      446.671787 -45090.9105146090
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.422 219 83     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.0005511        -0.0000020         0.0000000
+   user time:  0 hr  0 min  3 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Fri Oct 29 18:37:11 2021
+
+    Start runs mpprun -np 60 rspt 1.00e-12 99 on n118, Fri Oct 29 18:41:59 2021
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   30 8.51E-13 ( 3.39E-10)     15.5883858        -45,090.909 864 197
+@      446.671787 -45090.9098641966
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.422 676 86     0.000     0.150     0.100   6.8695650
+               dvr            R(dvi)            I(dvi)
+         0.0005511        -0.0000048         0.0000000
+   user time:  0 hr  0 min  3 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Fri Oct 29 18:42:58 2021
+

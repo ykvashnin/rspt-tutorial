@@ -1,0 +1,27 @@
+matsubara
+1200 60 60 0
+
+inputoutput
+.false. .false. .false.
+
+projection 
+1
+
+verbose
+Interface
+
+isoexch
+1 
+2
+-1.2
+2
+1 2
+
+cluster
+6 0                   ! ntot udef [nsites]
+1 0 1 1 0
+1 1 1 1 0
+1 2 1 1 0
+1 0 1 2 0
+1 1 1 2 0
+1 2 1 2 0

@@ -1,0 +1,92 @@
+#-------------------------------------------------------------------------------
+ start rspt
+ fft column major dimensions:
+       normal fft: 36 36 60, size = 77760
+        super fft: 72 72 120, size = 622080
+ mbases (matrix dimension mod spin) = 70
+ mbasis set
+ matrix dimension is 140
+ initfft: start
+ initfft: fft_ncmdim: 36 36 60 ... fft_scmdim: 72 72 120
+ initfft: nrmdim: 60 36 36 ... srmdim: 120 72 72
+ fftw_fft_init: MKL FFT's used, no wisdom file.
+ initfft: 
+ (Tail,Energy) parameter set
+     p     t     e
+     1     1     1
+     2     2     1
+     3     3     1
+     4     2     2
+     5     3     2
+ spin axis =  .000000000  .000000000  .000000000 absolute
+ spin axis euler angles: alpha =  .000000000 beta =  .000000000 gamma =  .000000000
+ eset 0
+  L  T  S  n  f                 E
+  0  1 -1  6 20  1.22522122286253
+  1  1 -1  6 21  1.82536090192524
+  2  1 -1  5  0  .348775369709190
+  3  1 -1  5 -1  1.89580553279546
+  4  1 -1  5  0  .404143836916350
+  5  1 -1  6  0  .432147797057000
+  6  1 -1  7  0  .429795573876010
+  7  1 -1  8  0  .469208604851940
+  8  1 -1  9  0  .438678983509370
+  0  1  1  6 20  1.29847175934668
+  1  1  1  6 21  1.89581546009372
+  2  1  1  5  0  .366097328027980
+  3  1  1  5 -1  1.96766996596414
+  4  1  1  5  0  .445811853402660
+  5  1  1  6  0  .461432347183470
+  6  1  1  7  0  .481619228568800
+  7  1  1  8  0  .531419573156400
+  8  1  1  9  0  .474105812672580
+ eset 1
+  L  T  S  n  f                 E
+  0  1 -1  5 -1 -3.01969399849279
+  1  1 -1  5 -1 -1.29176860388040
+  2  1 -1  5  0  .189616718848360
+  3  1 -1  5 -1  1.89580553279546
+  4  1 -1  5  0 -.909043514475820
+  5  1 -1  6  0 -.981035502376860
+  6  1 -1  7  0 -1.30156879795120
+  7  1 -1  8  0 -1.39896255126860
+  8  1 -1  9  0 -1.41036036491340
+  0  1  1  5 -1 -2.82337646410457
+  1  1  1  5 -1 -1.14145583330443
+  2  1  1  5  0  .111608066355660
+  3  1  1  5 -1  1.96766996596414
+  4  1  1  5  0 -1.45225818999820
+  5  1  1  6  0 -1.16091996371700
+  6  1  1  7  0 -1.22962338557960
+  7  1  1  8  0 -1.39314757028090
+  8  1  1  9  0 -1.48628682724130
+basisFT:    M0    M1    M2     vectors (column major order)
+basisFT:     9     9    15       11191
+basisFT: radii           1
+basisFT:     1  3.33000000
+basisFT: L+N+1           6
+basisFT:  maxL
+basisFT:     2
+initBasisFT: basis Fourier Transform parameters
+      radii and powers:
+        3.33000000     6
+          Lm    M0    M1    M2
+           2     9     9    15
+
+ Timing of c parts of RSPt:
+        E MT matrix elements :       0.000 m
+        P MT matrix elements :       0.000 m
+   SF sum MT matrix elements :       0.127 m
+  MT overlap matrix elements :       0.004 m
+      Tot MT matrix elements :       0.131 m
+    FFTs Int matrix elements :       0.310 m
+  Phases Int matrix elements :       0.000 m
+ ScaProd Int matrix elements :       0.137 m
+ScaProd1 Int matrix elements :       0.189 m
+     MPI Int matrix elements :       0.000 m
+    Junk Int matrix elements :       0.006 m
+     Tot Int matrix elements :       0.674 m
+                 Int density :       0.000 m
+
+ end rspt
+#-------------------------------------------------------------------------------

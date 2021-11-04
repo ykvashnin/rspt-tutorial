@@ -1,0 +1,38 @@
+ ------------     Starting iteration     --------------
+System -    Date: 01 11 21        Time: 15h 42m 46s 
+ ------------------------------------------------------
+ Total it, Solver it =            1           0  F
+ Chemical potential  =       0.7012062149120176  T  T
+ Number of electrons =      32.0000000000000000  T
+ Sigdiff             =       0.0000092523368451  T
+ ------------     Starting iteration     --------------
+System -    Date: 01 11 21        Time: 15h 42m 46s 
+ ------------------------------------------------------
+ Total it, Solver it =            2           0  F
+ Chemical potential  =       0.7012062149120176  T  T
+ Number of electrons =      32.0000000000000000  T
+ Sigdiff             =       0.0000092523368451  T
+ ------------     Starting iteration     --------------
+System -    Date: 01 11 21        Time: 15h 42m 46s 
+ ------------------------------------------------------
+ Total it, Solver it =            3           1  T
+ Chemical potential  =       0.7012062149120176  T  T
+ Number of electrons =      32.0000000000000000  T
+ Sigdiff             =       0.0000037553872128  T
+ ------------     Starting iteration     --------------
+System -    Date: 01 11 21        Time: 15h 42m 46s 
+ ------------------------------------------------------
+ Total it, Solver it =            4           1  T
+ Chemical potential  =       0.7012062149120176  T  T
+ Number of electrons =      32.0000000000000000  T
+ Sigdiff             =       0.0000037553872128  T
+ Spin moment (mu_B)  =      -0.0000000000000188
+ Energy correction   =       0.3123023756088479
+ ------------     End of the DMFT cycle  --------------
+System -    Date: 01 11 21        Time: 15h 42m 46s 
+ ------------------------------------------------------
+ ------------ Start of the Spectrum loop --------------
+System -    Date: 01 11 21        Time: 15h 45m 54s 
+ ------------  End of the Spectrum loop  --------------
+System -    Date: 01 11 21        Time: 15h 45m 57s 
+ ------------------------------------------------------

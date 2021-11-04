@@ -1,0 +1,7 @@
+ (/ i6, 3x, 3i1, i6, 2f6.0, f12.0 /)
+  ntls   ... nsets     .     .   log(epst)
+     3   111     2    .0    .0        -38.
+         T^2   ...  ?   ... sc t^2 = a/S^2         + b
+#include "tail_energies"
+ (3f6.0)
+    .0    1.    1.

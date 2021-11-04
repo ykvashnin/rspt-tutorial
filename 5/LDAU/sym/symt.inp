@@ -1,0 +1,19 @@
+latticevectors
+ 1.0 0.5 0.5
+ 0.5 1.0 0.5
+ 0.5 0.5 1.0
+
+atoms
+4
+ 0.0 0.0 0.0 28 c up
+ 1.0 1.0 1.0 28 c dn
+ 0.5 0.5 0.5 8 c a
+ 1.5 1.5 1.5 8 c a
+
+spinpol
+
+mtradii 
+3
+
+lengthscale
+7.9

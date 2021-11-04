@@ -1,0 +1,18 @@
+c Parameters (para.glo):
+      integer     ncqpar, ntppar, nclpar, nlmpar, nsdpar, nthpar
+     >          , nchpar, norpar, nrppar, nktpar, nttpar, nespar
+     >          , ntlpar, nylpar, optpar, nptpar, ntepar
+      parameter (
+     >     ncqpar = 4000000
+     >   , ntppar = 1, nclpar = 2
+     >   , nlmpar = 8, nsdpar = 2
+     >   , nthpar = 18, nchpar = 27
+     >   , norpar = 16, nrppar = 608
+     >   , nktpar = 100, nttpar = 10000
+     >   , nespar = 2, ntlpar = 3
+     >   , nylpar = 48, optpar = 5000
+     >          )
+      parameter (nptpar = nrppar + 100, ntepar = ntlpar * nespar)
+c fix these
+      integer     nftpar, nprpar, nkwpar, newpar, nutpar
+      parameter (nftpar=512, nprpar=9, nkwpar=1, newpar=1, nutpar=1)

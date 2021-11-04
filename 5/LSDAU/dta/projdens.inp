@@ -1,0 +1,14 @@
+! Generate contour plot of the charge density according to
+! Task = 0  : Full valence density
+!        1  : Density from energy interval
+!
+! Output format = 0  : simple xyz format
+!                 1  : IDL (Interactive Data Language) format
+!                 2  : .dat and .plt file for gnuplot
+!
+! The energies are relative to the Fermi energy. The unit is
+! one of: Ry, eV, mRy, meV
+!
+! Task    Output format   Emin     Emax      Energy unit
+projdens
+   1            2         -5.0     0.00           Ry

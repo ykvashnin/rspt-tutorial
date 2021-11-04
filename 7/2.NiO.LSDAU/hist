@@ -1,0 +1,39 @@
+ history
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e    0 4.16E-03 ( 4.44E-01)     .000000019       -6,371.415 679 162 9
+@      246.519500 -6371.41567916287
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.779 257 98     0.000     0.100     0.100   7.9000000
+               dvr            R(dvi)            I(dvi)
+         0.8122614        -0.2006704         0.0000000
+   user time:  0 hr  0 min  1 sec
+ system time:  0 hr  0 min  0 sec
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e    1 1.48E-03 ( 3.34E-01)    -.000000000       -6,371.780 792 199 9
+@      246.519500 -6371.78079219991
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.701 206 21     0.000     0.100     0.100   7.9000000
+               dvr            R(dvi)            I(dvi)
+         0.4843045        -0.1394586         0.0000000
+   user time:  0 hr  0 min  2 sec
+ system time:  0 hr  0 min  0 sec
+    Start runs mpprun -np 49 rspt 1.00e-10 99 on n1087, Mon Nov  1 15:41:30 2021
+  Iter   <f**2>   (<fe**2>)         Moment                          E
+e   16 2.79E-11 ( 6.75E-09)    -.000000000       -6,372.252 837 222 4
+@      246.519500 -6372.25283722240
+                   EF    Q(max)      MixR  spin mix       SCALE
+         0.645 237 71     0.000     0.100     0.100   7.9000000
+               dvr            R(dvi)            I(dvi)
+         0.0005443         0.0000077         0.0000000
+   user time:  0 hr  0 min  1 sec
+ system time:  0 hr  0 min  0 sec
+    end runs, Mon Nov  1 15:42:48 2021
+
+   user time:  0 hr  0 min  2 sec
+ system time:  0 hr  0 min  0 sec
+   user time:  0 hr  0 min  4 sec
+ system time:  0 hr  0 min  0 sec
+   user time:  0 hr  0 min  4 sec
+ system time:  0 hr  0 min  0 sec
+   user time:  0 hr  0 min  4 sec
+ system time:  0 hr  0 min  0 sec

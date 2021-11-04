@@ -1,0 +1,24 @@
+#include "data.prnt_array"
+#include "data.header"
+ LABEL
+#include "data.length_scale_form"
+#include "data.brillouin_zone_integration"
+ (i6)
+     1 placeholder for obsolete panel index
+#include "data.panel_data"
+#include "data.bravais_lattice"
+#include "data.fourier_grid"
+ (// 2i8)
+ TYPE 1: species: 65a
+   natom   nharm  (L=   0   1   2   3   4   5   6   7   8)
+       2      18  (n=   1   2   3   5   7   9  12  15  18)
+ (/ (24i3))
+ density exponents
+  1
+ basis exponents
+  5  4  3  2  1  0  0  0  0
+ (/ (3f18.0, 5x, a1))
+              tau1              tau2              tau3     c
+  .333333333333333 -.333333333333333  .250000000000000     l
+ -.333333333333333  .333333333333333 -.250000000000000     l
+#include "element_65"

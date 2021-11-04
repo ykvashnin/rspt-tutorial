@@ -1,0 +1,37 @@
+matsubara
+1200 60 60 0
+
+inputoutput
+T F ! readsig csc
+
+projection 
+1
+
+verbose
+Interface
+
+isoexch
+1 
+2
+-3.0
+2
+1 2
+
+cluster
+2 0                   ! ntot udef [nsites]
+1 2 1 1 0
+2 2 1 1 0
+
+#Ni-up
+cluster
+1 2 eV
+1 2 1 1 0   8.0 0.9
+2 2 1.0 
+
+
+#Ni-dn
+cluster
+1 2 eV
+2 2 1 1 0   8.0 0.9
+2 2 1.0 
+
