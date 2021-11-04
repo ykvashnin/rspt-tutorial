@@ -16,4 +16,4 @@ List of tutorials:
 7) Calculation of the inter-atomic exchange parameters Jij's (Examples: Co2FeAl, NiO, hcp Tb)
 
 Disclaimer:
-In these examples, I also give some general recomendations about setting up the calculations. These are mostly based on my discussions with colleagues as well as my own experience. Certain settings related to the choice of kinetic energy tails and linearization energies are not carved in stone, but usually help to mitigate most of convergence issues. 
+In these examples, I also give some general recomendations about setting up the calculations. These are mostly based on my discussions with colleagues as well as my own experience. Certain settings related to the choice of kinetic energy tails and linearization energies are not carved in stone, but usually help to mitigate most convergence issues. 
