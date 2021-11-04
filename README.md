@@ -1,6 +1,9 @@
 # RSPt Tutorial
 Here I will store the material used for the video tutorial on electronic structure calculations with FP-LMTO code "RSPt".
 
+To know more about this code, visit:
+https://www.physics.uu.se/research/materials-theory/ongoing-research/code-development/rspt-main/faq-on-rspt/
+
 In this series of tutorials I make step-by-step calculations using RSPt, explain how to prepare the input-files and what parameters are important to check in the out-files.
 
 List of tutorials:
