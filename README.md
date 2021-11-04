@@ -1,4 +1,4 @@
-# RSPt Tutorial
+# RSPt Video Tutorial
 Here I will store the material used for the video tutorial on electronic structure calculations with FP-LMTO code "RSPt".
 
 To know more about this code, visit:
